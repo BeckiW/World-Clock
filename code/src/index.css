@@ -72,3 +72,21 @@ button:hover {
   font-size: 28pt;
   padding-bottom: 10px;
 }
+
+@media (min-width: 650px) and (max-width: 900px) {
+  .buttonGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .buttonGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}

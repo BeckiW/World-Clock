@@ -74,6 +74,13 @@ class Clock extends React.Component {
       this.setState({
         title: "Singapore",
         timezone: "Asia/Singapore"
+
+      });
+
+    } else if ( buttonText == "RUSSIA" ) {
+      this.setState({
+        title: "Russia (Moscow)",
+        timezone: "Russia/Moscow"
       });
     }
   }
@@ -87,6 +94,7 @@ class Clock extends React.Component {
           <button onClick={this.changeZoneClick}>STOCKHOLM</button>
           <button onClick={this.changeZoneClick}>BRAZIL</button>
           <button onClick={this.changeZoneClick}>SINGAPORE</button>
+          <button onClick={this.changeZoneClick}>RUSSIA</button>
         </div>
       </div>
     )
