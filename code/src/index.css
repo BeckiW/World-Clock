@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 20px;
+  color: #343434;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #009ff5;
+  background-image: url("./images/rice-paper.png");
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 32pt;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0px black;
+}
+
+.display {
+  font-size: 85px;
+}
+
+.buttonGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+button {
+  font-size: 20px;
+  height: 50px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button:hover {
+
+}
+
+.clock-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 10px;
+}
+
+.clock {
+  background-color: white;
+  padding: 10px;
+  border: solid 1px #999999;
+  border-radius: 4px;
+}
+
+.clock h2 {
+  font-size: 18pt;
+}
+
+.clock h3 {
+  font-size: 28pt;
+  padding-bottom: 10px;
 }
